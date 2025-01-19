@@ -1,0 +1,15 @@
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore .env files for sensitive information (like API keys)
+.env
+
+# Ignore other typical IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
